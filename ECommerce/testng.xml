@@ -1,0 +1,18 @@
+<suite name="Suite">
+  <test  name="Testff">
+ <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="script.TestLogin2"/>
+  <class name="script.TestAccount"/>
+  </classes>
+  </test> 
+  <test  name="Testchrome" >
+ <parameter name="browser" value="chrome"/>
+  <classes>
+  <class name="script.TestLogin2"/>
+  <class name="script.TestAccount"/>
+  </classes>
+  </test>
+ </suite>
+ 
+ 

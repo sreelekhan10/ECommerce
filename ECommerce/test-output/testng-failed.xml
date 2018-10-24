@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [completes uite]">
+  <test thread-count="5" name="Testff(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.TestHome">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="ValidBook"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- script.TestHome -->
+    </classes>
+  </test> <!-- Testff(failed) -->
+  <test thread-count="5" name="Testchrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.TestHome">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="ValidBook"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- script.TestHome -->
+    </classes>
+  </test> <!-- Testchrome(failed) -->
+</suite> <!-- Failed suite [completes uite] -->

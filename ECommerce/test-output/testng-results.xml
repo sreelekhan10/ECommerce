@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="completes uite" duration-ms="97491" started-at="2018-09-25T16:17:25Z" finished-at="2018-09-25T16:19:02Z">
+    <groups>
+    </groups>
+    <test name="Testff" duration-ms="51731" started-at="2018-09-25T16:17:25Z" finished-at="2018-09-25T16:18:17Z">
+      <class name="script.TestHome">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:script.TestHome@34cd072c]" name="openApplication" is-config="true" duration-ms="20843" started-at="2018-09-25T16:17:25Z" finished-at="2018-09-25T16:17:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="ValidBook()[pri:0, instance:script.TestHome@34cd072c]" name="ValidBook" duration-ms="28758" started-at="2018-09-25T16:17:46Z" finished-at="2018-09-25T16:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidBook -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestHome@34cd072c]" name="closeApplication" is-config="true" duration-ms="2091" started-at="2018-09-25T16:18:14Z" finished-at="2018-09-25T16:18:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.TestHome -->
+    </test> <!-- Testff -->
+    <test name="Testchrome" duration-ms="45714" started-at="2018-09-25T16:18:17Z" finished-at="2018-09-25T16:19:02Z">
+      <class name="script.TestHome">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:script.TestHome@3d921e20]" name="openApplication" is-config="true" duration-ms="12185" started-at="2018-09-25T16:18:17Z" finished-at="2018-09-25T16:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="ValidBook()[pri:0, instance:script.TestHome@3d921e20]" name="ValidBook" duration-ms="31796" started-at="2018-09-25T16:18:29Z" finished-at="2018-09-25T16:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidBook -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestHome@3d921e20]" name="closeApplication" is-config="true" duration-ms="1728" started-at="2018-09-25T16:19:01Z" finished-at="2018-09-25T16:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.TestHome -->
+    </test> <!-- Testchrome -->
+  </suite> <!-- completes uite -->
+</testng-results>

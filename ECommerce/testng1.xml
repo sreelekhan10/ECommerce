@@ -1,0 +1,16 @@
+<suite name="completes
+uite">
+  <test  name="Testff">
+ <parameter name="browser" value="firefox"/>
+  <classes>
+  <class name="script.TestHome"/>
+  </classes>
+  </test> 
+  <test  name="Testchrome" >
+ <parameter name="browser" value="chrome"/>
+  <classes>
+    <class name="script.TestHome"/>
+  </classes>
+  </test>
+ </suite>
+ 
